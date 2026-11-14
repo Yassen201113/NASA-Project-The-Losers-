@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Stories From Space — meet the machines that explored our solar system.">
+  <meta name="theme-color" content="#080d20"><title>Stories From Space | The Losers</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&family=Orbitron:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css"><script src="app.js" defer></script>
+</head>
+<body data-page="home"><div class="planetary-scene" aria-hidden="true">
+  <div class="planet-orbit orbit-one"><span class="orbit-moon"></span></div>
+  <div class="planet planet-earth"></div>
+  <div class="planet planet-mars"></div>
+  <div class="planet planet-saturn"><span class="saturn-ring"></span></div>
+  <div class="planet planet-moon"></div>
+  <div id="space-runner" aria-hidden="true">🧑‍🚀</div>
+<script src="runner.js"></script>
+
+<div id="space-guide">
+
+  <button id="guide-toggle" aria-label="Open Space Guide">
+    <img src="space-guide.jpg" alt="Space Buddy">
+    <span class="guide-help-dot">?</span>
+  </button>
+
+    </div>
+
+  </section>
+
+</div>
+
+<script src="guide.js"></script>
+
+</div>
+  <div class="stars" aria-hidden="true"></div><div class="shooting-star" aria-hidden="true"></div><div class="shooting-star shooting-star-two" aria-hidden="true"></div>
+  <header class="site-header"><a class="brand" href="index.html" aria-label="Stories From Space home"><span class="brand-mark">✦</span><span>STORIES <i>FROM</i> SPACE</span></a>
+    <nav class="header-actions" aria-label="Display settings"><button class="icon-button" id="languageToggle" type="button" aria-label="Switch language">عربي</button><button class="icon-button" id="themeToggle" type="button" aria-label="Switch color theme">☼ <span class="theme-label">Light</span></button></nav>
+  </header>
+  <main>
+    <section class="home-hero section-wrap"><p class="eyebrow" data-i18n="homeEyebrow">A NASA Space Apps Challenge project · Team The Losers</p>
+      <h1 class="hero-title" data-i18n="homeTitle">Stories <span>From</span><br>Space</h1>
+      <p class="hero-lead" data-i18n="homeLead">Tiny machines. Giant journeys. Meet the explorers that carried our questions beyond Earth.</p>
+      <a class="primary-link" href="#mission-map"><span data-i18n="exploreMissions">Explore the missions</span><span aria-hidden="true">↓</span></a>
+      <div class="hero-orbit" aria-hidden="true"><div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><div class="planet planet-earth"></div><div class="planet planet-mars"></div><div class="planet planet-gold"></div></div>
+    </section>
+    <section class="section-wrap mission-section" id="mission-map"><div class="section-heading"><p class="eyebrow" data-i18n="mapEyebrow">FOUR MACHINES · FOUR INCREDIBLE STORIES</p><h2 data-i18n="mapTitle">Choose your destination</h2><p data-i18n="mapLead">Tap a glowing signal to open its story.</p><p class="explore-tagline" data-i18n="closingLine">Every signal has a story. Every discovery starts with a question.</p></div>
+      <div class="solar-map" aria-label="Interactive mission map">
+        <div class="map-sun" aria-hidden="true"></div><div class="map-orbit map-orbit-a"></div><div class="map-orbit map-orbit-b"></div><div class="map-orbit map-orbit-c"></div>
+        <a class="mission-point point-apollo" href="apollo.html"><span class="point-core">☾</span><span class="point-label" data-i18n="apollo">Apollo</span><span class="point-preview"><b data-i18n="apollo">Apollo 11 Reflector</b><small data-i18n="apolloPreview">A passive mirror that still helps measure the Moon.</small></span></a>
+        <a class="mission-point point-curiosity" href="curiosity.html"><span class="point-core">✧</span><span class="point-label" data-i18n="curiosity">Curiosity</span><span class="point-preview"><b>Curiosity</b><small data-i18n="curiosityPreview">A robot exploring Mars.</small></span></a>
+        <a class="mission-point point-voyager" href="voyager.html"><span class="point-core">⌁</span><span class="point-label" data-i18n="voyager">Voyager 1</span><span class="point-preview"><b>Voyager 1</b><small data-i18n="voyagerPreview">A message traveling between stars.</small></span></a>
+        <a class="mission-point point-pioneer" href="pioneer.html"><span class="point-core">✦</span><span class="point-label" data-i18n="pioneer">Pioneer 10</span><span class="point-preview"><b>Pioneer 10</b><small data-i18n="pioneerPreview">The first to cross the asteroid belt.</small></span></a>
+        <span class="map-caption" data-i18n="mapCaption">A story map — not to scale</span>
+      </div>
+      <div class="mission-shortcuts"><a href="voyager.html"><span class="shortcut-icon">⌁</span><span><b data-i18n="voyager">Voyager 1</b><small data-i18n="voyagerSub">The interstellar traveler</small></span><span class="arrow">↗</span></a><a href="curiosity.html"><span class="shortcut-icon">✧</span><span><b data-i18n="curiosity">Curiosity</b><small data-i18n="curiositySub">The Mars explorer</small></span><span class="arrow">↗</span></a><a href="pioneer.html"><span class="shortcut-icon">✦</span><span><b data-i18n="pioneer">Pioneer 10</b><small data-i18n="pioneerSub">The pathfinder</small></span><span class="arrow">↗</span></a><a href="apollo.html"><span class="shortcut-icon">☾</span><span><b data-i18n="apollo">Apollo</b><small data-i18n="apolloSub">The Moon missions</small></span><span class="arrow">↗</span></a></div>
+    </section>
+
+    <section class="section-wrap mission-legacy" id="artifact-status">
+      <div class="section-heading"><p class="eyebrow" data-i18n="legacyEyebrow">FOUR EXPLORERS · THREE DIFFERENT LEGACIES</p><h2 data-i18n="legacyTitle">Not every space artifact is silent.</h2><p data-i18n="legacyLead">Meet active missions, silent spacecraft, and passive equipment that still supports research.</p></div>
+      <div class="legacy-grid">
+        <article class="legacy-card"><span class="legacy-icon">📡</span><h3 data-i18n="legacyActiveTitle">Still working</h3><p data-i18n="legacyActiveText">Voyager 1 still returns limited science data, while Curiosity continues exploring Mars.</p></article>
+        <article class="legacy-card"><span class="legacy-icon">✦</span><h3 data-i18n="legacySilentTitle">Silent, but still travelling</h3><p data-i18n="legacySilentText">Pioneer 10 stopped communicating, but it continues coasting through space.</p></article>
+        <article class="legacy-card"><span class="legacy-icon">🔭</span><h3 data-i18n="legacyPassiveTitle">Passive, but still useful</h3><p data-i18n="legacyPassiveText">The Apollo 11 reflector needs no power and still helps scientists measure the Earth–Moon system.</p></article>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer"><span>STORIES FROM SPACE</span><span data-i18n="footerCredit">Made by Team The Losers · NASA Space Apps Challenge</span></footer>
+</body></html>
